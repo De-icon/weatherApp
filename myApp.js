@@ -1,4 +1,5 @@
-function getWeather() {
+
+function searchWeather(){
     const cityInput = document.getElementById('cityInput');
     const cityName = cityInput.value;
 
@@ -22,6 +23,7 @@ function getWeather() {
             const sunny = data.main.feels_like;
 
             weatherInfo.innerHTML = cityName.toUpperCase();
+
             document.getElementById('Temp').innerHTML = Math.round(temperature);
             document.getElementById('Pre').innerHTML = Math.round(pressure);
             document.getElementById('Hum').innerHTML = Math.round(humidity);
@@ -31,6 +33,6 @@ function getWeather() {
             
         })
         .catch(function(error) {
-            weatherInfo.innerHTML = 'An error occurred while fetching weather data.';
+            // weatherInfo.innerHTML = 'error';
         });
 }

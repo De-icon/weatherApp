@@ -61,13 +61,13 @@ main .hero .header .search input {
   margin-left: 5px;
   width: 100%;
 }
-main .hero .header .search input ::-moz-placeholder {
+main .hero .header .search ::-moz-placeholder {
   color: white;
 }
-main .hero .header .search input :-ms-input-placeholder {
+main .hero .header .search :-ms-input-placeholder {
   color: white;
 }
-main .hero .header .search input ::placeholder {
+main .hero .header .search ::placeholder {
   color: white;
 }
 main .hero .header .search button {
@@ -90,8 +90,8 @@ main .hero .header .contante {
 main .hero .header .contante .wead {
   width: 80px;
   height: 100px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   background-color: rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -100,7 +100,10 @@ main .hero .header .contante .wead {
   justify-content: center;
   flex-direction: column;
   padding: 10px;
-  gap: 13px;
+  gap: 10px;
+}
+main .hero .header .contante .wead div {
+  display: flex;
 }
 main .hero .header .contante .wead img {
   width: 20px;

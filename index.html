@@ -15,43 +15,37 @@
             <div class="header">
                 <h1>Find Weather Forecast</h1>
                 <div class="box">
-                   <div class="search">
-                    <input id="cityInput" type="text" placeholder="Location">
-                    <button onclick="getWeather()"><img src="/img/icons8-search.svg" ></button>
-                   </div>
+                    <div class="search">
+                        <input id="cityInput" type="text" placeholder="Search for any place...">
+                        <button onclick="searchWeather()"><img src="/img/icons8-search.svg" ></button>
+                    </div>
                    <h3 id="weatherInfo"></h3>
                     <div class="contante">
-                        <div class="wead">
-                            <img src="/img/icons8-sun.svg">
-                            <p>Sunny</p>
-                         
-                            <h3 id="Sun"></h3>
-                        </div>
                         <div class="wead">
                             <img src="/img/icons8-temperature-100.png" alt="">
                             <p>Temperature</p>
                             
-                            <h3 id="Temp"></h3>
+                            <div><h3 id="Temp">---</h3><sup>o</sup></div>
                         </div> <div class="wead">
                             <img src="/img/icons8-humidity-52.png" >
                             <p>Humidity</p>
                             
-                            <h3 id="Hum"></h3>
+                            <div><h3 id="Hum">---</h3><span>%</span></div>
                         </div> <div class="wead">
                             <img src="/img/icons8-pressure-100 (1).png">
                             <p>Pressure</p>
                             
-                            <h3 id="Pre"></h3>
+                            <div><h3 id="Pre">---</h3><span>hPa</span></div>
                         </div> <div class="wead">
                             <img src="/img/icons8-rain-100.png" >
                             <p>Clouds</p>
                             
-                            <h3 id="Clo"></h3>
+                            <h3 id="Clo">---</h3>
                         </div> <div class="wead">
                             <img src="/img/icons8-wind-100.png" >
                             <p>Wind Speed</p>
                             
-                            <h3 id="Win"></h3>
+                            <div><h3 id="Win">---</h3><span>km/h</span></div>
                         </div>
                         
                     </div>

@@ -64,9 +64,10 @@ main{
                     color: #fff;
                     margin-left: 5px;
                     width: 100%;
-                    ::placeholder{
-                        color: white;
-                    }
+                    
+                }
+                ::placeholder{
+                    color: white;
                 }
                 button{
                     border: none;
@@ -91,8 +92,8 @@ main{
             .wead{
                 width: 80px;
                 height: 100px;
-                border-top-right-radius: 25px;
-                border-bottom-left-radius: 25px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
                 background-color: rgba(0, 0, 0, 0.1);
                 color: #fff;
@@ -101,7 +102,13 @@ main{
                 justify-content: center;
                 flex-direction: column;
                 padding: 10px;
-                gap: 13px;
+                gap: 10px;
+
+                div{
+                    display: flex;
+                    // align-items: center;
+                }
+
                 img{
                     width: 20px;
                 }
